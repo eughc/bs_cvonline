@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Ícones Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0b0c2a;
+            color: #fff;
+            padding-top: 80px;
+        }
+
+        .navbar {
+            background: linear-gradient(90deg, #1f0036, #36013f, #210535);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #a239ca;
+        }
+
+        .navbar-brand img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .nav-link {
+            color: #fff !important;
+        }
+
+        .nav-link:hover {
+            color: #a239ca;
+        }
+
+        .about-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .about-section img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #a239ca;
+            margin-bottom: 20px;
+        }
+
+        .about-section h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        .about-section p {
+            color: #ccc;
+            max-width: 700px;
+            margin: 0 auto 30px auto;
+            font-size: 1.1rem;
+        }
+
+        .social-icons a {
+            color: #a239ca;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+        }
+
+        footer {
+            background-color: #1d1e33;
+            color: #ccc;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+     <!-- Barra de navegação galáctica -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- Logo circular -->
+                <img src="/curriculo_online/gif.gif" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/curriculo_online/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/curriculo_online/port.html">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/curriculo_online/formulario.html">Contato</a>
+                    </li>
+
+                    <!-- Dropdown corrigido -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sobre Mim
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/curriculo_online/sobre.html">Sobre mim</a></li>
+                            <li><a class="dropdown-item" href="#">Experiência</a></li>
+                         <li><a class="dropdown-item" href="habilidades.html">Habilidades</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Sobre Mim -->
+    <section class="about-section">
+        <img src="/curriculo_online/image.jpg" alt="Minha Foto">
+        <h1>Olá, eu sou a Giovanna</h1>
+        <p>
+            Sou uma desenvolvedora em formação, amo desenvolver na parte de desingn do site mas possuo experiencia no backend.
+
+        </p>
+            <p>
+          Certificados:
+
+        </p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/seu-usuario" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/seu-usuario" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/seu-usuario" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
+    </section>
+
+  
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
